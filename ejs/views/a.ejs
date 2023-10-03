@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejs</title>
+</head>
+<body>
+    <h1>
+        EJS
+    </h1>
+
+    <!-- <%=name%>
+
+    <%=arr[0]%>  -->
+
+
+    
+
+
+    <%if(arr.length<=0){%>
+        <img src="https://media3.giphy.com/media/UoeaPqYrimha6rdTFV/giphy.gif" alt="" width="100%">
+    <%}else{%>
+        <%for(let i=0;i<=arr.length;i++){%>
+            <li>
+                <%=arr[i]%>
+            </li>
+        <%}%>
+    <%}%>
+
+
+</body>
+</html>
